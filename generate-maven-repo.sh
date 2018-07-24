@@ -2,6 +2,8 @@
 if [ $# -ne 4 ]; then
   echo "Wrong number of arguments. Correct usage: \"generate-maven-repo FILE GROUP ARTIFACT VERSION\""
   echo "Example: generate-maven-repo.sh ~/tmp/qef-libs/qosdisc.jar ch.epfl qosdisc 1.0"
+echo "sh generate-maven-repo.sh ~/git/maven-repo/de/fuberlin/wiwiss/d2rq/r2rml.jar de.fuberlin.wiwiss.d2rq r2rml 2.0"
+
 else
   ORIGINAL_DIR=$PWD
   APP_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
