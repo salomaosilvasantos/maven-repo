@@ -1,10 +1,10 @@
 # maven-repo
 
-ARIDa Maven Repository
+Salomão Santos Maven Repository
 
 ## Uso de dependências do repositório ARiDa no seu projeto
 
-A seguir um exemplo de uso da dependência *qosdisc* do repositório Maven do ARiDa. 
+A seguir um exemplo de uso da dependência *qosdisc* do repositório Maven do Salomão Santos. 
 Basta configurar a API como dependência do seu projeto no arquivo pom.xml:
 
 ```xml
@@ -15,7 +15,7 @@ Basta configurar a API como dependência do seu projeto no arquivo pom.xml:
   <repositories>
     <repository>
       <id>maven-repo</id>
-      <url>http://arida.github.io/maven-repo/</url>
+      <url>http://salomaosilvasantos.github.io/maven-repo/</url>
     </repository>
   </repositories>
   ...
